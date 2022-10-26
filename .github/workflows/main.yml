@@ -10,15 +10,15 @@ jobs:
       - uses: actions/setup-node@v3.5.0
         with:
             node-version: '18.6.0'
+      - name: Install wdio
+        run: npm init wdio   
       - name: Allure-reporter install
         run:  npm install @wdio/allure-reporter --save-dev
       - name: Allure-commandline install
         run:  npm i allure-commandline
       - name: Allure-commandline install
         run:  npm install @wdio/selenium-standalone-service --save-dev
-      - name: Install
-        run: npm install
-      - name: Test
+      - name: Start crossbrowser test
         run: npm run test_cross
       - uses: actions/upload-artifact@v1
         if: failure()
