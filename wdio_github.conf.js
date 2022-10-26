@@ -55,14 +55,14 @@ exports.config = {
         browserName: 'chrome',
         acceptInsecureCerts: true,
         'goog:chromeOptions': {
-            args: ['--headless', '--disable-gpu', '--disable-dev-shm-usage'],
+            args: ['headless', 'disable-gpu', 'disable-dev-shm-usage'],
         },
     }, {
         maxInstances: 5,
         browserName: 'firefox',
         acceptInsecureCerts: true,
         'moz:firefoxOptions': {
-            args: ['-headless'],
+            args: ['headless'],
         }
     },
 //        {
