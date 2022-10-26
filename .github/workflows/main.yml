@@ -18,7 +18,7 @@ jobs:
       - name: Allure-commandline install
         run:  npm install @wdio/selenium-standalone-service --save-dev
       - name: Start crossbrowser test
-        run: npm run test_cross
+        run: npm run test_github
       - uses: actions/upload-artifact@v1
         if: failure()
         with:
