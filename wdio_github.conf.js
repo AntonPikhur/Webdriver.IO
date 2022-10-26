@@ -63,6 +63,7 @@ exports.config = {
         acceptInsecureCerts: true,
         'moz:firefoxOptions': {
         args: ['-headless'],
+        }
     }, {
         browserName: 'MicrosoftEdge'
     }],
