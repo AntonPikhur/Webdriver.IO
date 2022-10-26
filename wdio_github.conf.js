@@ -58,22 +58,13 @@ exports.config = {
             args: ['headless', 'disable-gpu', 'disable-dev-shm-usage'],
         },
     }, {
-        maxInstances: 5,
-        browserName: 'firefox',
-        acceptInsecureCerts: true,
-        'moz:firefoxOptions': {
-            args: ['headless'],
-        }
-    },
-//        {
 //        maxInstances: 5,
-//        browserName: 'MicrosoftEdge',
+//        browserName: 'firefox',
 //        acceptInsecureCerts: true,
-//        'edge:edgeOptions': {
-//            args: ['-headless'],
-//                }
-//        }
-    ],
+//        'moz:firefoxOptions': {
+//            args: ['headless'],
+        }
+    }],
     //
     // ===================
     // Test Configurations
