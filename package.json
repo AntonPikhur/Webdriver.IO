@@ -7,7 +7,7 @@
         "test_chrome": "npx wdio run ./wdio_chrome.conf.js && allure open",
         "test_firefox": "npx wdio run ./wdio_firefox.conf.js && allure open",
         "test_cross": "npx wdio run ./wdio_cross.conf.js && allure open",
-        "test_github": "npx wdio run ./wdio_github.conf.js && allure open",
+        "test_github": "npx wdio run ./wdio_github.conf.js",
         "wdio": "wdio run wdio.conf.js"
     },
     "author": "",
