@@ -64,14 +64,16 @@ exports.config = {
         'moz:firefoxOptions': {
             args: ['-headless'],
         }
-    }, {
-        maxInstances: 5,
-        browserName: 'MicrosoftEdge',
-        acceptInsecureCerts: true,
-        'edge:edgeOptions': {
-            args: ['-headless'],
-                }
-    }],
+    },
+//        {
+//        maxInstances: 5,
+//        browserName: 'MicrosoftEdge',
+//        acceptInsecureCerts: true,
+//        'edge:edgeOptions': {
+//            args: ['-headless'],
+//                }
+//        }
+    ],
     //
     // ===================
     // Test Configurations
