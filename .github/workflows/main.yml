@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3.5.0
+      - uses: actions/setup-node@v3.5.1
 
       - name: Install wdio
-        run: npm init wdio   
+        run: npm install   
       - name: Allure-reporter install
         run:  npm install @wdio/allure-reporter --save-dev
       - name: Allure-commandline install
