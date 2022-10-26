@@ -5,7 +5,7 @@ describe('Testing of Telnyx main page using Webdriver.IO', () => {
         await mainPage.firstStep();
     })
     it('1. Should click on "Call Us" and modal window appears',async() => {
-        await mainPage.cookieClick();
+//        await mainPage.cookieClick();
         await mainPage.callUsClick();
         await expect(mainPage.callUsModal).toBeDisplayed();
     })
