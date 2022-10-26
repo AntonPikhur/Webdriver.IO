@@ -16,7 +16,7 @@ jobs:
       - name: Allure-commandline install
         run:  npm i allure-commandline
       - name: Geckodriver install
-        run:  npm install wdio-geckodriver-service --save-dev
+        run:  npm install geckodriver --save-dev
       - name: Start crossbrowser test
         run: npm run test_github
 
