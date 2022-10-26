@@ -12,11 +12,11 @@ jobs:
       - name: Install wdio
         run: npm install   
       - name: Allure-reporter install
-        run:  npm install @wdio/allure-reporter --save-dev
+        run:  npm install @wdio/allure-reporter
       - name: Allure-commandline install
         run:  npm i allure-commandline
       - name: Geckodriver install
-        run:  npm install geckodriver --save-dev
+        run:  npm install geckodriver
       - name: Start crossbrowser test
         run: npm run test_github
 
