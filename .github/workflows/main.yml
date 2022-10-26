@@ -15,7 +15,7 @@ jobs:
         run:  npm install @wdio/allure-reporter --save-dev
       - name: Allure-commandline install
         run:  npm i allure-commandline
-      - name: Allure-commandline install
+      - name: Selenium standalone install
         run:  npm install @wdio/selenium-standalone-service --save-dev
       - name: Start crossbrowser test
         run: npm run test_github
