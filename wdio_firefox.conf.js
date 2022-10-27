@@ -58,7 +58,11 @@ exports.config = {
         maxInstances: 1,
         //
         browserName: 'firefox',
-        acceptInsecureCerts: true
+        acceptInsecureCerts: true,
+        'moz:firefoxOptions': {
+            args: ["--width=1366",
+                "--height=786"]
+        }
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs

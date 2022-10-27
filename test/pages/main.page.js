@@ -1,6 +1,5 @@
 class mainPage {
     firstStep(){
-        browser.setWindowSize(1366, 768)
         browser.url('/');
     }
     cookieClick(){
